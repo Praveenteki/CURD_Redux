@@ -1,0 +1,6 @@
+export const ActionTypes = {
+  LOGIN: "LOGIN",
+  LOGIN_LOADING: "LOGIN_LOADING",
+  LOGIN_ERROR: "LOGIN_ERROR",
+  LOGOUT: "LOGOUT",
+};

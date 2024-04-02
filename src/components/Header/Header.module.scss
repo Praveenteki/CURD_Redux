@@ -1,0 +1,50 @@
+.mainContainer {
+  padding: 20px;
+  background-color: #be9958;
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logoContainer {
+      img {
+        width: auto;
+        height: 70px;
+        object-fit: contain;
+      }
+    }
+    .menusContainer {
+      display: flex;
+      .menus {
+        margin: 0 10px;
+        .button {
+          color: #ffffff;
+          background: none;
+          border: none;
+          font-size: 16px;
+          cursor: pointer;
+          position: relative;
+          text-transform: uppercase;
+          &::before {
+            content: "";
+            position: absolute;
+            width: 0%;
+            height: 0.105rem;
+            left: 0;
+            bottom: 0;
+            visibility: hidden;
+            background-color: #ffffff;
+            transition: all 0.3s ease-in-out;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -ms-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+          }
+          &:hover::before {
+            width: 100%;
+            visibility: visible;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.mainContainer {
+  min-height: 100vh;
+  background-color: #e0c7be;
+  .searchContainer {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    input {
+      width: 40%;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #000000;
+    }
+  }
+  .productsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+}

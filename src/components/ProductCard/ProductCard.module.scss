@@ -1,0 +1,24 @@
+.mainContainer {
+  background-color: #d3d3d3;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgb(190, 153, 88) 0px 3px 8px;
+  .imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .image {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+  }
+  .dataContainer {
+    text-align: center;
+    margin-top: 20px;
+    .name {
+    }
+  }
+}
